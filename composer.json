@@ -1,0 +1,27 @@
+{
+	"name" : "jmfiaschi/ZfTableDoctrine",
+	"description" : "ZfTable with Doctrine",
+	"keywords" : [
+		"zftable",
+		"table",
+		"doctrine"
+	],
+	"authors" : [{
+			"name" : "Jean-Marc Fiaschi",
+			"email" : "jm.fiaschi@gmail.com"
+		}
+	],
+	"require" : {
+		"php" : ">=5.3.3",
+		"zendframework/zendframework" : ">2.*",
+		"dudapiotr/zftable" : "dev-master"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"ZfTableDoctrine" : "src/"
+		},
+		"classmap" : [
+			"./"
+		]
+	}
+}
