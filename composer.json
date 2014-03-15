@@ -19,10 +19,7 @@
 	"autoload" : {
 		"psr-0" : {
 			"ZfTableDoctrine" : "src/"
-		},
-		"classmap" : [
-			"./Module.php"
-		]
+		}
 	},
 	"minimum-stability":"dev"
 }
