@@ -16,11 +16,6 @@
 		"zendframework/zendframework" : "2.*",
 		"dudapiotr/zftable" : "dev-master"
 	},
-	"repositories" : [{
-			"type" : "vcs",
-			"url" : "https://github.com/dudapiotr/ZfTable"
-		}
-	],
 	"autoload" : {
 		"psr-0" : {
 			"ZfTableDoctrine" : "src/"
