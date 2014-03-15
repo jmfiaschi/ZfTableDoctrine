@@ -1,5 +1,5 @@
 {
-	"name" : "jmfiaschi/ZfTableDoctrine",
+	"name" : "jmfiaschi/zf-table-doctrine",
 	"description" : "ZfTable with Doctrine",
 	"keywords" : [
 		"zftable",
@@ -21,7 +21,7 @@
 			"ZfTableDoctrine" : "src/"
 		},
 		"classmap" : [
-			"./"
+			"./Module.php"
 		]
 	}
 }
